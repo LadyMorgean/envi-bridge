@@ -15,7 +15,7 @@ if not Bridge.InventoryEvent then
         Bridge.InventoryEvent = 'qb-inventory'
         QBInventory = exports[Bridge.InventoryName]
     elseif Bridge.InventoryName == 'qs-inventory' then
-        -- Quasar Advanced Inventory
+        -- Quasar Advanced Inventory 
         Bridge.InventoryEvent = 'inventory'
         QSInventory = exports[Bridge.InventoryName]
     else
